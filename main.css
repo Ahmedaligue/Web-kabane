@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://files.catbox.moe/ujlmow.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(0, 128, 0, 0.8);
+  border: 1px solid #008000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: animate 2s infinite;
+}
+
+.button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #008000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  animation: animate-button 1s infinite;
+}
+
+.button:hover {
+  background-color: #006400;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes animate-button {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  color: #fff;
+  font-size: 36px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media a {
+  margin: 10px;
+}
+
+.social-media i {
+  font-size: 24px;
+  margin: 10px;
+}
+
+.social-media i:hover {
+  color: #ccc;
+}
+
+/* إضافة تأثيرات بصرية */
+.container {
+  transition: all 0.5s ease-in-out;
+}
+
+.button {
+  transition: all 0.5s ease-in-out;
+}
+
+.social-media a {
+  transition: all 0.5s ease-in-out;
+}
+
+.social-media i {
+  transition: all 0.5s ease-in-out;
+}
